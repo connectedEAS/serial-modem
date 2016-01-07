@@ -1,0 +1,14 @@
+{
+  "name": "serial-modem",
+  "version": "0.0.0",
+  "description": "transfers data from serial interfaces to tcp\\ip endpoints",
+  "main": "SerialModem.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Christopher Spring",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "serialport": "~2.0.6"
+  }
+}

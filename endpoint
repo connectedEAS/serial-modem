@@ -1,0 +1,19 @@
+{
+	"collector-endpoint" : {
+	  "host": "collecter.connectedearthsciences.org",
+	  "port": 8080,
+	  "path": "/idiyabus",
+	  "method": "POST"
+	},
+
+	"serial-endpoint" : {
+		"device-handle":"/dev/ttyACM0",
+		"baud-rate":9600,
+	},
+
+	"flow-control" : {
+		"data-direction" : "upstream",
+		"message-rate-mills" : 500,
+		"compression-enabled" : false
+	}
+}
